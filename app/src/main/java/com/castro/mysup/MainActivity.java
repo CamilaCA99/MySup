@@ -4,8 +4,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.graphics.Color;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     //Creamos las variables que harán referencia a los widgets
@@ -24,7 +26,10 @@ public class MainActivity extends AppCompatActivity {
         txtTitulo.setTextColor(Color.BLUE);
     }
 
-    public void Saludar(){
-
+    public void Saludar(View view){
+        Toast.makeText(this,"hola mi pana banana",Toast.LENGTH_LONG).show();
+    }
+    public void Despedir(View bai) {
+        Toast.makeText(this, "chao mi pana banana", Toast.LENGTH_LONG).show();
     }
 }
