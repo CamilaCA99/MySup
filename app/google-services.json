@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1052168464355",
+    "project_id": "fir-mysup",
+    "storage_bucket": "fir-mysup.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1052168464355:android:32d95d2e806fa6172e22d6",
+        "android_client_info": {
+          "package_name": "com.castro.mysup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1052168464355-6mjvo4ld41joto2rfmvhvh66s4e8l5c8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC10KMrqNI0EprqTBhh60A4CuFiTrq33bg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1052168464355-6mjvo4ld41joto2rfmvhvh66s4e8l5c8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
