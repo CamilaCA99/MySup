@@ -6,7 +6,6 @@ public class Usuario {
     private String email;
     private String password;
     private String tipo;
-    private String descripcion;
     private int telefono;
 
     public String getId() {
@@ -49,14 +48,6 @@ public class Usuario {
         this.tipo = tipo;
     }
 
-    public String getDescripcion() {
-        return descripcion;
-    }
-
-    public void setDescripcion(String descripcion) {
-        this.descripcion = descripcion;
-    }
-
     public int getTelefono() {
         return telefono;
     }
@@ -65,13 +56,12 @@ public class Usuario {
         this.telefono = telefono;
     }
 
-    public Usuario(String id, String nombre, String email, String password, String tipo, String descripcion, int telefono) {
+    public Usuario(String id, String nombre, String email, String password, String tipo, int telefono) {
         this.id = id;
         this.nombre = nombre;
         this.email = email;
         this.password = password;
         this.tipo = tipo;
-        this.descripcion = descripcion;
         this.telefono = telefono;
     }
 
